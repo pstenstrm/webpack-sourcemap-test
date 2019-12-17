@@ -1,0 +1,22 @@
+{
+  "name": "webpack-sourcemap-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/runtime-corejs3": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "bluebird": "^3.7.2",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
